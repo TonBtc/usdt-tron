@@ -3,64 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USDT TRON</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>USDT-TRON Gateway</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
+            padding: 0;
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(270deg, #0f2027, #203a43, #2c5364);
-            background-size: 600% 600%;
-            animation: GradientBackground 15s ease infinite;
-            color: #fff;
+            background: #ffffff;
+            color: #111;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+        main {
+            flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding: 40px 20px;
             text-align: center;
-            min-height: 100vh;
-            padding: 20px;
         }
-        @keyframes GradientBackground {
-            0% {background-position: 0% 50%;}
-            50% {background-position: 100% 50%;}
-            100% {background-position: 0% 50%;}
-        }
-        h1 {
-            font-size: 3em;
-            color: #00d395;
-            margin-bottom: 10px;
-        }
-        p {
+        main p {
             font-size: 1.2em;
-            margin-bottom: 30px;
+            max-width: 600px;
+            margin: 20px 0;
         }
-        .buttons {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .buttons a {
+        .button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 24px;
             text-decoration: none;
-            color: #fff;
-            background: #00d395;
-            padding: 10px 20px;
-            border-radius: 30px;
-            transition: background 0.3s;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s;
         }
-        .buttons a:hover {
-            background: #00a879;
+        .button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background: #f0f0f0;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <h1>USDT - TRON</h1>
-    <p>The trusted stablecoin, faster on TRON Network.</p>
-    <div class="buttons">
-        <a href="https://twitter.com/Tether_to" target="_blank">Twitter</a>
-        <a href="https://tether.to/" target="_blank">Website</a>
-        <a href="https://www.linkedin.com/company/tether-to/" target="_blank">LinkedIn</a>
-    </div>
+    <header>USDT-TRON Gateway</header>
+    <main>
+        <p>Welcome to the official USDT-TRON gateway.<br>
+        Our platform ensures fast, secure, and reliable TRC20 USDT transactions globally.</p>
+        <a href="#" class="button">Learn More</a>
+    </main>
+    <footer>© 2025 USDT-TRON. All rights reserved.</footer>
 </body>
 </html>
